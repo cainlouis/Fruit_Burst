@@ -1,6 +1,7 @@
 {
   "version": 2,
-  "dgSpecHash": "psc0G0zEvKlIUpXhX95MSrL+aQ7neTsDEZBI8RMLcC+Z2lJ88XsEFVk6n2SFQFaJXXjnKRZAD3CQ7Z4oR8govg==",
+  "dgSpecHash": "hhafL0KgqDKP9eiT3R9+Fp6W4cYgLONMtSHVF54f7+5ii1QGtUfwzNaOETdfb6IxAvB8U9WKHkcekOsUmjhmOQ==",
+>>>>>>> 310f4a6062a4c174a48a7c20792cf2bc5043c404
   "success": true,
   "projectFilePath": "c:\\Users\\sosol\\Documents\\school\\programming\\assignments\\fruitburst_1934115\\FruitBurstBackend\\FruitBurstBackend.csproj",
   "expectedPackageFiles": [],
