@@ -1,10 +1,10 @@
 using System;
  namespace FruitBurstBackend
  {
-     public class MagicBurst: FruitDecorator
+     public class MagicFruit: FruitDecorator
      {
          public int HP{get{return this.HP;} set{this.HP = 20;}}
-         public MagicBurst(IFruit fruit): base(fruit)
+         public MagicFruit(IFruit fruit): base(fruit)
          {
          }
 
