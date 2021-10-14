@@ -1,30 +1,30 @@
 {
   "format": 1,
   "restore": {
-    "H:\\510\\assignments\\fruitburst_1934115\\FruitBurstBackend\\FruitBurstBackend.csproj": {}
+    "c:\\Users\\sosol\\Documents\\school\\programming\\assignments\\fruitburst_1934115\\FruitBurstBackend\\FruitBurstBackend.csproj": {}
   },
   "projects": {
-    "H:\\510\\assignments\\fruitburst_1934115\\FruitBurstBackend\\FruitBurstBackend.csproj": {
+    "c:\\Users\\sosol\\Documents\\school\\programming\\assignments\\fruitburst_1934115\\FruitBurstBackend\\FruitBurstBackend.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "H:\\510\\assignments\\fruitburst_1934115\\FruitBurstBackend\\FruitBurstBackend.csproj",
+        "projectUniqueName": "c:\\Users\\sosol\\Documents\\school\\programming\\assignments\\fruitburst_1934115\\FruitBurstBackend\\FruitBurstBackend.csproj",
         "projectName": "FruitBurstBackend",
-        "projectPath": "H:\\510\\assignments\\fruitburst_1934115\\FruitBurstBackend\\FruitBurstBackend.csproj",
-        "packagesPath": "C:\\Dev\\.nuget\\packages",
-        "outputPath": "H:\\510\\assignments\\fruitburst_1934115\\FruitBurstBackend\\obj\\",
+        "projectPath": "c:\\Users\\sosol\\Documents\\school\\programming\\assignments\\fruitburst_1934115\\FruitBurstBackend\\FruitBurstBackend.csproj",
+        "packagesPath": "C:\\Users\\sosol\\.nuget\\packages\\",
+        "outputPath": "c:\\Users\\sosol\\Documents\\school\\programming\\assignments\\fruitburst_1934115\\FruitBurstBackend\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\1934115\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\sosol\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
-          "net5.0"
+          "netcoreapp3.1"
         ],
         "sources": {
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net5.0": {
-            "targetAlias": "net5.0",
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {}
           }
         },
@@ -35,8 +35,8 @@
         }
       },
       "frameworks": {
-        "net5.0": {
-          "targetAlias": "net5.0",
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "imports": [
             "net461",
             "net462",
