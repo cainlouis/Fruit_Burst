@@ -13,7 +13,7 @@ namespace FruitBurstBackend
             Level = 0;
         }
 
-        public void UpdatScore(IFruit fruit)
+        public void UpdateScore(IFruit fruit)
         {
             Score += fruit.Points;
         }
