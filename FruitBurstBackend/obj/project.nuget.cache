@@ -1,9 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "hhafL0KgqDKP9eiT3R9+Fp6W4cYgLONMtSHVF54f7+5ii1QGtUfwzNaOETdfb6IxAvB8U9WKHkcekOsUmjhmOQ==",
->>>>>>> 310f4a6062a4c174a48a7c20792cf2bc5043c404
+  "dgSpecHash": "r5bleBKOXG2h5fiOVTkHhKtBdPiMytykbvAjbwEX6WHQUCH+KTNUbRm0eSjAj9g1oxLG+WSQR3Iar1LBGMWK3w==",
   "success": true,
-  "projectFilePath": "c:\\Users\\sosol\\Documents\\school\\programming\\assignments\\fruitburst_1934115\\FruitBurstBackend\\FruitBurstBackend.csproj",
+  "projectFilePath": "c:\\Users\\sosol\\Documents\\school\\fifthsem\\programming\\fruitburst\\fruitburst_1934115\\FruitBurstBackend\\FruitBurstBackend.csproj",
   "expectedPackageFiles": [],
-  "logs": []
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problem reading the cache file c:\\Users\\sosol\\Documents\\school\\fifthsem\\programming\\fruitburst\\fruitburst_1934115\\FruitBurstBackend\\obj\\project.nuget.cache : Invalid property identifier character: >. Path 'dgSpecHash', line 4, position 0."
+    }
+  ]
 }
