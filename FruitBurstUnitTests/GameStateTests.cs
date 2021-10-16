@@ -1,3 +1,4 @@
+using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using FruitBurstBackend;
 
@@ -48,6 +49,14 @@ namespace FruitBurstUnitTests
 
             gs.SetInvisibleAt(1,1);
             Assert.IsFalse(gs.Grid[1,1].IsVisible);
+        }
+
+        [TestMethod]
+        [ExpectedException(typeof(IndexOutOfRangeException))]
+        public void TestSetInvisibleAt_OutOfRangePosition_ThrowException()
+        {
+            GameState gs = new GameState(5,5);
+            gs.Grid[6,6].IsVisible = true;
         }
 
         [TestMethod]
