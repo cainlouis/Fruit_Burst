@@ -4,23 +4,22 @@ namespace FruitBurstBackend
 {
     public class GameState
     {
-        public IFruit[,] Grid{get;}
+        public FruitGrid Grid{get;}
         public ScoreAndLevel ScoreAndLevelCounter{get;}
         private Random random;
 
-        public GameState(int length, int width)
+        public GameState(int height, int width)
         {
-            Grid = new Fruit[length, width];
+            Grid = new FruitGrid(height, width);
             ScoreAndLevelCounter = new ScoreAndLevel();
             random = new Random();
         }
 
         public void MakeFruitsAppear()
         {
-           int randI = random.Next(Grid.GetLength(0));
-           int randJ = random.Next(Grid.GetLength(1));
+           int randI = random.Next(Grid.Height);
+           int randJ = random.Next(Grid.Width);
            Grid[randI,randJ].MakeVisible();
-
         }
 
         public void SetInvisibleAt(int i, int j)
