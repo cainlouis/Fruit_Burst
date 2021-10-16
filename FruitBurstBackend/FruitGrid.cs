@@ -28,13 +28,13 @@ namespace FruitBurstBackend
         {   
             //insert the decorated fruits first
             InsertDecoratedFruit();
-            
+
             //For all the place left in grid place normal fruit
             for (int i = 0; i < Height; i++)
             {
                 for (int j = 0; j < Width; j++) 
                 {
-                    if (grid[i,j] != null) {
+                    if (grid[i,j] == null) {
                         grid[i,j] = new Fruit();
                     }
                 }
@@ -75,7 +75,7 @@ namespace FruitBurstBackend
                     }
                 }
                 //for the number chosen
-                for (int i = 1; i <= num; i++)
+                for (int i = 0; i < num; i++)
                 {
                     //get random number for the position
                     rand1 = random.Next(Height);
