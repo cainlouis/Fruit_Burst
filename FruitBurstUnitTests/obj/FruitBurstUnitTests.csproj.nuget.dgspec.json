@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "H:\\510\\assignments\\fruitburst_1934115\\FruitBurstUnitTests\\FruitBurstUnitTests.csproj": {}
+    "C:\\Users\\sosol\\Documents\\school\\fifthsem\\programming\\fruitburst\\fruitburst_1934115\\FruitBurstUnitTests\\FruitBurstUnitTests.csproj": {}
   },
   "projects": {
-    "H:\\510\\assignments\\fruitburst_1934115\\FruitBurstUnitTests\\FruitBurstUnitTests.csproj": {
+    "C:\\Users\\sosol\\Documents\\school\\fifthsem\\programming\\fruitburst\\fruitburst_1934115\\FruitBurstUnitTests\\FruitBurstUnitTests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "H:\\510\\assignments\\fruitburst_1934115\\FruitBurstUnitTests\\FruitBurstUnitTests.csproj",
+        "projectUniqueName": "C:\\Users\\sosol\\Documents\\school\\fifthsem\\programming\\fruitburst\\fruitburst_1934115\\FruitBurstUnitTests\\FruitBurstUnitTests.csproj",
         "projectName": "FruitBurstUnitTests",
-        "projectPath": "H:\\510\\assignments\\fruitburst_1934115\\FruitBurstUnitTests\\FruitBurstUnitTests.csproj",
-        "packagesPath": "C:\\Dev\\.nuget\\packages",
-        "outputPath": "H:\\510\\assignments\\fruitburst_1934115\\FruitBurstUnitTests\\obj\\",
+        "projectPath": "C:\\Users\\sosol\\Documents\\school\\fifthsem\\programming\\fruitburst\\fruitburst_1934115\\FruitBurstUnitTests\\FruitBurstUnitTests.csproj",
+        "packagesPath": "C:\\Users\\sosol\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\sosol\\Documents\\school\\fifthsem\\programming\\fruitburst\\fruitburst_1934115\\FruitBurstUnitTests\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\1934115\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\sosol\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
@@ -70,7 +70,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     }
