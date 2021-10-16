@@ -9,8 +9,7 @@ namespace FruitBurstUnitTests
         [TestMethod]
         public void TestPoints_IsNegative()
         {
-            IFruit fruit = new Fruit();
-            ExplodingFruit expFruit = new ExplodingFruit(fruit);
+            ExplodingFruit expFruit = new ExplodingFruit(new Fruit());
             bool result = false;
             if (expFruit.Points < 0) {
                 result = true;
@@ -20,16 +19,14 @@ namespace FruitBurstUnitTests
 
         [TestMethod]
         public void TestIsVisible_IsFalse() {
-            IFruit fruit = new Fruit();
-            ExplodingFruit expFruit = new ExplodingFruit(fruit);
+            ExplodingFruit expFruit = new ExplodingFruit(new Fruit());
             Assert.IsFalse(expFruit.IsVisible);
         }
 
         [TestMethod]
         public void TestMakeVisible_IsVisibleIsTrue()
         {
-            IFruit fruit = new Fruit();
-            ExplodingFruit expFruit = new ExplodingFruit(fruit);
+            ExplodingFruit expFruit = new ExplodingFruit(new Fruit());
             expFruit.MakeVisible();
             Assert.IsTrue(expFruit.IsVisible);
         }
@@ -37,8 +34,7 @@ namespace FruitBurstUnitTests
         [TestMethod]
         public void TestMakeInvisible_IsVisibleIsFalse()
         {
-            IFruit fruit = new Fruit();
-            ExplodingFruit expFruit = new ExplodingFruit(fruit);
+            ExplodingFruit expFruit = new ExplodingFruit(new Fruit());
             expFruit.MakeVisible();
             expFruit.MakeInvisible();
             Assert.IsFalse(expFruit.IsVisible);
