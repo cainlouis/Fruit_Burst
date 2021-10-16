@@ -1,3 +1,4 @@
+using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using FruitBurstBackend;
 
@@ -23,11 +24,19 @@ namespace FruitBurstUnitTests
         }
 
         [TestMethod]
-        public void TestPopulateGrid_DoesNotEqualNull()
+        public void TestPopulateGrid_DoesNotEqualNull_AndGetVisibility()
         {
             FruitGrid grid = new FruitGrid(20, 20);
             bool result = grid.GetVisibility(5,5);
             Assert.IsFalse(result);
+        }
+
+        [TestMethod]
+        [ExpectedException(typeof(IndexOutOfRangeException))]
+        public void TestGetVisibility_OutOfRange() 
+        {
+            FruitGrid grid = new FruitGrid(5, 5);
+            bool result = grid.GetVisibility(6,6);
         }
     }
 }
