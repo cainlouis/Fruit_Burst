@@ -10,9 +10,9 @@
             "request": "launch",
             "preLaunchTask": "build",
             // If you have changed target frameworks, make sure to update the program path.
-            "program": "${workspaceFolder}/FruitBurst/bin/Debug/netcoreapp3.1/FruitBurst.dll",
+            "program": "${workspaceFolder}/FruitBurstUnitTests/bin/Debug/net5.0/FruitBurstUnitTests.dll",
             "args": [],
-            "cwd": "${workspaceFolder}/FruitBurst",
+            "cwd": "${workspaceFolder}/FruitBurstUnitTests",
             // For more information about the 'console' field, see https://aka.ms/VSCode-CS-LaunchJson-Console
             "console": "internalConsole",
             "stopAtEntry": false
