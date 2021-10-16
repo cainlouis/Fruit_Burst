@@ -4,8 +4,13 @@ namespace FruitBurstBackend
 {
     public class FruitGrid
     {
+        //Field that represent an 2D array of IFruits
         private IFruit[,] grid;
+        
+        //Property the returns a int, represent the height of the grid
         public int Height{get;}
+
+        //Property the returns a int, represent the width of the grid
         public int Width {get;}
 
         public IFruit this[int i, int j]
