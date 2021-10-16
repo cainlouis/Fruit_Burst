@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\sosol\\Documents\\school\\fifthsem\\programming\\fruitburst\\fruitburst_1934115\\FruitBurstBackend\\FruitBurstBackend.csproj",
+      "projectUniqueName": "C:\\Users\\sosol\\Documents\\school\\fifthsem\\programming\\fruitburst\\fruitburst_1934115\\FruitBurstBackend\\FruitBurstBackend.csproj",
       "projectName": "FruitBurstBackend",
-      "projectPath": "c:\\Users\\sosol\\Documents\\school\\fifthsem\\programming\\fruitburst\\fruitburst_1934115\\FruitBurstBackend\\FruitBurstBackend.csproj",
+      "projectPath": "C:\\Users\\sosol\\Documents\\school\\fifthsem\\programming\\fruitburst\\fruitburst_1934115\\FruitBurstBackend\\FruitBurstBackend.csproj",
       "packagesPath": "C:\\Users\\sosol\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\sosol\\Documents\\school\\fifthsem\\programming\\fruitburst\\fruitburst_1934115\\FruitBurstBackend\\obj\\",
+      "outputPath": "C:\\Users\\sosol\\Documents\\school\\fifthsem\\programming\\fruitburst\\fruitburst_1934115\\FruitBurstBackend\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\sosol\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -61,13 +61,5 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Problem reading the cache file c:\\Users\\sosol\\Documents\\school\\fifthsem\\programming\\fruitburst\\fruitburst_1934115\\FruitBurstBackend\\obj\\project.nuget.cache : Invalid property identifier character: >. Path 'dgSpecHash', line 4, position 0."
-    }
-  ]
+  }
 }

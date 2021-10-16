@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\sosol\\Documents\\school\\fifthsem\\programming\\fruitburst\\fruitburst_1934115\\FruitBurstBackend\\FruitBurstBackend.csproj": {}
+    "C:\\Users\\sosol\\Documents\\school\\fifthsem\\programming\\fruitburst\\fruitburst_1934115\\FruitBurstBackend\\FruitBurstBackend.csproj": {}
   },
   "projects": {
-    "c:\\Users\\sosol\\Documents\\school\\fifthsem\\programming\\fruitburst\\fruitburst_1934115\\FruitBurstBackend\\FruitBurstBackend.csproj": {
+    "C:\\Users\\sosol\\Documents\\school\\fifthsem\\programming\\fruitburst\\fruitburst_1934115\\FruitBurstBackend\\FruitBurstBackend.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\sosol\\Documents\\school\\fifthsem\\programming\\fruitburst\\fruitburst_1934115\\FruitBurstBackend\\FruitBurstBackend.csproj",
+        "projectUniqueName": "C:\\Users\\sosol\\Documents\\school\\fifthsem\\programming\\fruitburst\\fruitburst_1934115\\FruitBurstBackend\\FruitBurstBackend.csproj",
         "projectName": "FruitBurstBackend",
-        "projectPath": "c:\\Users\\sosol\\Documents\\school\\fifthsem\\programming\\fruitburst\\fruitburst_1934115\\FruitBurstBackend\\FruitBurstBackend.csproj",
+        "projectPath": "C:\\Users\\sosol\\Documents\\school\\fifthsem\\programming\\fruitburst\\fruitburst_1934115\\FruitBurstBackend\\FruitBurstBackend.csproj",
         "packagesPath": "C:\\Users\\sosol\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\sosol\\Documents\\school\\fifthsem\\programming\\fruitburst\\fruitburst_1934115\\FruitBurstBackend\\obj\\",
+        "outputPath": "C:\\Users\\sosol\\Documents\\school\\fifthsem\\programming\\fruitburst\\fruitburst_1934115\\FruitBurstBackend\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\sosol\\AppData\\Roaming\\NuGet\\NuGet.Config"
