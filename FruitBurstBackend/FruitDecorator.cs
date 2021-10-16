@@ -11,16 +11,12 @@ namespace FruitBurstBackend
             this.Ifruit = ifruit;
         }
 
-        public virtual int Points {get;}
+        public virtual int Points {get {return this.Ifruit.Points;}}
 
-        public virtual bool IsVisible{get;set;}
-        public virtual void MakeVisible()  {
-            this.Ifruit.IsVisible = true;
-        }
+        public virtual bool IsVisible{get {return this.Ifruit.IsVisible;}set {this.Ifruit.IsVisible = value;}}
+        public abstract void MakeVisible();
 
-        public virtual void MakeInvisible() {
-            this.Ifruit.IsVisible = false;
-        }
+        public abstract void MakeInvisible();
 
     }
 }
