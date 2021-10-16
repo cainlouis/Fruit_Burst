@@ -1,4 +1,6 @@
+using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
+using FruitBurstBackend;
 
 namespace FruitBurstUnitTests
 {

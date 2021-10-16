@@ -11,7 +11,7 @@ namespace FruitBurstBackend
 
         public Fruit() {
             IsVisible = false;
-            int rand = random.Next(1, 5);
+            int rand = random.Next(1, 6);
             Points = rand;
         }
 
