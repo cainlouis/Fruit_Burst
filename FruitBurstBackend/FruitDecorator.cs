@@ -15,11 +15,11 @@ namespace FruitBurstBackend
 
         public virtual bool IsVisible{get;set;}
         public virtual void MakeVisible()  {
-            Console.Write("MakeVisible");
+            this.Ifruit.IsVisible = true;
         }
 
         public virtual void MakeInvisible() {
-            Console.Write("MakeInvisible");
+            this.Ifruit.IsVisible = false;
         }
 
     }
