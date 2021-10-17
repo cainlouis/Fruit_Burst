@@ -43,6 +43,8 @@ namespace FruitBurstUnitTests
         [TestMethod]
         public void TestSetInvisibleAt()
         {
+            //This test fails at magic fruit due to the different implementation of the MakeInvisible method
+            //pass when it's explodingFruit and fruit
             GameState gs = new GameState(5,5);
             gs.Grid[1,1].IsVisible = true;
             Assert.IsTrue(gs.Grid[1,1].IsVisible);
