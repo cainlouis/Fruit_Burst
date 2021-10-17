@@ -14,6 +14,7 @@ namespace FruitBurst
         private FruitGrid grid;
         private SpriteBatch spriteBatch;
         private Game1 game;
+        private const int px = 100;
 
         //Initializes the Game1 object
         public FruitGridSprite(Game1 game) : base(game)
@@ -53,7 +54,7 @@ namespace FruitBurst
             for (int i = 0; i < grid.Height; i++){
                 for (int j = 0; j < grid.Width; j++) {
                     if (grid.GetVisibility(i,j)) {
-                       spriteBatch.Draw(fruitTexture, new Rectangle(j * 100, i * 100, 100, 100), Color.White); 
+                       spriteBatch.Draw(fruitTexture, new Rectangle(j * px, i * px, px, px), Color.White); 
                     }
                 }
             }

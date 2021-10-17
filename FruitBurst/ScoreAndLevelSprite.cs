@@ -16,12 +16,12 @@ namespace FruitBurst
         //the font that we use
         private SpriteFont font;
         private SpriteBatch spriteBatch;
-
+        
         public ScoreAndLevelSprite(Game1 game): base(game)
         {
             this.game = game;
         }
-        
+
         //overloaded constructor initializes the game and scoreAndLevel fields
         public ScoreAndLevelSprite(Game1 game, ScoreAndLevel scoreAndLevel): base(game)
         {
