@@ -24,6 +24,7 @@ namespace FruitBurstUnitTests
         [TestMethod]
         public void TestMakeFruitAppear()
         {
+
             GameState gs = new GameState(5,5);
             bool result = false;
             gs.MakeFruitsAppear();
@@ -48,8 +49,12 @@ namespace FruitBurstUnitTests
             GameState gs = new GameState(5,5);
             gs.Grid[1,1].IsVisible = true;
             Assert.IsTrue(gs.Grid[1,1].IsVisible);
-
-            gs.SetInvisibleAt(1,1);
+            int counter = 20;
+            //Do it a couple of time so it doesn't fail if it's a magic fruit
+            do {
+                gs.SetInvisibleAt(1,1);
+                counter--;
+            } while (counter > 0);
             Assert.IsFalse(gs.Grid[1,1].IsVisible);
         }
 
