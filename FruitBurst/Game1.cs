@@ -28,8 +28,7 @@ namespace FruitBurst
         private int maxLevel;
         //this is the int we use to know that they're is too much fruit visible so the game stops
         private int visibleCount;
-
-        //
+        private const int px = 100;
         public Game1()
         {
             _graphics = new GraphicsDeviceManager(this);
@@ -44,7 +43,7 @@ namespace FruitBurst
             counter = 0;
             maxThresold = 60;
             experience = 50;
-            maxLevel = 5;
+            maxLevel = 4;
             visibleCount = 0;
         }
 
@@ -105,7 +104,7 @@ namespace FruitBurst
                     for (int j = 0; j < this.gameState.Grid.Width; j++)
                     {
                         //create new rectangle to get the position
-                        Rectangle rect = new Rectangle(j * 100, i * 100, 100, 100);
+                        Rectangle rect = new Rectangle(j * px, i * px, px, px);
                         //check if the mouse is clicked at that point in rect and that the visibility is true
                         if (rect.Contains(new Point(current.Position.X, current.Position.Y)) && this.gameState.Grid.GetVisibility(i, j))
                         {
