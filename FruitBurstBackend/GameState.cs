@@ -24,9 +24,17 @@ namespace FruitBurstBackend
         //set the fruit at [randI,randJ]'s IsVisible to true 
         public void MakeFruitsAppear()
         {
-           int randI = random.Next(Grid.Height);
-           int randJ = random.Next(Grid.Width);
-           Grid[randI,randJ].MakeVisible();
+            int counter = 0;
+            do
+            {
+                int randI = random.Next(Grid.Height);
+                int randJ = random.Next(Grid.Width);
+                if (Grid[randI, randJ].IsVisible != true)
+                {
+                    Grid[randI, randJ].MakeVisible();
+                    counter++;
+                }
+            } while (counter == 0);
         }
 
         //Set the fruit at [i,j] to invisible
