@@ -86,7 +86,7 @@ namespace FruitBurst
                 //increment the level
                 this.gameState.IncrementLevel();
                 //decrement the maxThresold by 15
-                maxThresold -= 15;
+                maxThresold -= 10;
             }
 
             //Call visible to know if we exit the game
@@ -158,12 +158,6 @@ namespace FruitBurst
             //check if the number of visible is 20 or if we reached the max level and exit if yes
             if(this.gameState.ScoreAndLevelCounter.Level == maxLevel || visibleCount > 20)
             {
-                if (visibleCount > 20)
-                {
-                    Console.WriteLine("You lost...");
-                } else if (this.gameState.ScoreAndLevelCounter.Level == maxLevel){
-                    Console.WriteLine("You won!!!");
-                }
                 Exit();
             }
         }
