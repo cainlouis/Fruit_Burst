@@ -99,16 +99,21 @@ namespace FruitBurstBackend
                 }
                 counter++;
             } while (counter < 2);
+            //add one exploding magic fruit to the grid
             for (int i = 0; i < 1; i++)
             {
+                //get random numbers
                 rand1 = random.Next(Height);
                 rand2 = random.Next(Width);
+                //if the place is not null
                 if (grid[rand1, rand2] != null)
                 {
+                    //decrease i so it runs again at the end of the loop
                     i--;
                 }
                 else
                 {
+                    //else place the fruit
                     grid[rand1, rand2] = new MagicFruit(new ExplodingFruit(new Fruit()));
                 }
             }
