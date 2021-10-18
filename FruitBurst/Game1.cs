@@ -129,7 +129,7 @@ namespace FruitBurst
          if not increment the counter by 1*/
         private void Counter()
         {
-            if (counter == maxThresold)
+            if (counter > maxThresold)
             {
                 this.gameState.MakeFruitsAppear();
                 counter = 0;
