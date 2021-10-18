@@ -13,7 +13,7 @@ namespace FruitBurst
         //2 of the sprites
         private FruitGridSprite fSprite;
         private ScoreAndLevelSprite sSprite;
-        
+
         private GameState gameState;
         private MouseState current;
         private MouseState previous;
@@ -49,7 +49,7 @@ namespace FruitBurst
 
         protected override void Initialize()
         {
-            this.gameState = new GameState(8,8);
+            this.gameState = new GameState(8, 8);
 
             //Set the game size
             _graphics.PreferredBackBufferWidth = 1000;
@@ -72,13 +72,13 @@ namespace FruitBurst
         }
 
         protected override void Update(GameTime gameTime)
-        {   
+        {
             //call counter to make the fruit appear
             Counter();
 
             /*this keeps track of the score and increase the level
               if the score divided by the exp incremented at each level is bigger than 1*/
-            if (this.gameState.ScoreAndLevelCounter.Score/experience > 1) 
+            if (this.gameState.ScoreAndLevelCounter.Score / experience > 1)
             {
 
                 experience += 80;
@@ -90,7 +90,7 @@ namespace FruitBurst
 
             //Call visible to know if we exit the game
             CountVisible();
-            
+
             //Set the state of the mouseState object
             previous = current;
             current = Mouse.GetState();
@@ -133,7 +133,9 @@ namespace FruitBurst
             {
                 this.gameState.MakeFruitsAppear();
                 counter = 0;
-            } else {
+            }
+            else
+            {
                 counter++;
             }
         }
@@ -148,14 +150,14 @@ namespace FruitBurst
             {
                 for (int j = 0; j < this.gameState.Grid.Width; j++)
                 {
-                    if (this.gameState.Grid[i,j].IsVisible)
+                    if (this.gameState.Grid[i, j].IsVisible)
                     {
                         visibleCount++;
                     }
                 }
             }
             //check if the number of visible is 20 or if we reached the max level and exit if yes
-            if(this.gameState.ScoreAndLevelCounter.Level == maxLevel || visibleCount > 20)
+            if (this.gameState.ScoreAndLevelCounter.Level == maxLevel || visibleCount > 20)
             {
                 Exit();
             }
