@@ -12,7 +12,7 @@ namespace FruitBurstUnitTests
             MagicFruit mFruit = new MagicFruit(new Fruit());
             int mected = 20;
             int result = mFruit.HP;
-            Assert.AreEqual(mected,  result);
+            Assert.AreEqual(mected, result);
         }
 
         [TestMethod]
@@ -47,6 +47,19 @@ namespace FruitBurstUnitTests
             mFruit.HP = 0;
             mFruit.MakeInvisible();
             Assert.IsFalse(mFruit.IsVisible);
+        }
+
+        [TestMethod]
+        public void TestMagicExplodingFruit()
+        {
+            MagicFruit mf = new MagicFruit(new ExplodingFruit(new Fruit()));
+            bool result = false;
+            if (mf.Points < 0)
+            {
+                result = true;
+            }
+            Assert.IsTrue(result);
+            Assert.AreEqual(20, mf.HP);
         }
     }
 }
